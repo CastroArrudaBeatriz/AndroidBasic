@@ -4,4 +4,5 @@
     <string name="number_2_label">Número 2:</string>
     <string name="operation_label">Operação</string>
     <string name="result_label">Resultado</string>
+    <string name="clear_button_label">Limpar Resultado</string>
 </resources>

@@ -2,6 +2,7 @@ package com.example.androidbasic
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -39,6 +40,14 @@ class MainActivity : AppCompatActivity() {
                 checkNumberisNull(number_1.text.toString()),
                 checkNumberisNull(number_2.text.toString())
             ).toString()
+        }
+
+        /*clear_event_button*/
+        clear_button.setOnClickListener{
+            result_value.text = ""
+            number_1.text.clear()
+            number_2.text.clear()
+            Toast.makeText(this, "Resultado Limpo!", Toast.LENGTH_LONG).show()
         }
 
     }
