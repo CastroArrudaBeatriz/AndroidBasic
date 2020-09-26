@@ -1,5 +1,7 @@
 <resources>
-    <string name="app_name">First App</string>
-    <string name="card_description">Eu amo Pizza!</string>
-    <string name="main_button_text">Somar</string>
+    <string name="app_name">Count to me!</string>
+    <string name="number_1_label">Número 1:</string>
+    <string name="number_2_label">Número 2:</string>
+    <string name="operation_label">Operação</string>
+    <string name="result_label">Resultado</string>
 </resources>
